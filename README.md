@@ -6,11 +6,7 @@ Regular expressions (or regex for short) are
 
 In this tutorial, we will be discussing the "matching an email" regex which looks like this: 
 
-```
-
-/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
-
-```
+`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
 This regex would be used to verify that a user has provided a valid email with an "@" and ".[ending]". 
 

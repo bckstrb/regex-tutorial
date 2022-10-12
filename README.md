@@ -34,7 +34,7 @@ Anchors are used to denote the beginning and end of the regex. In our email matc
 
 ### Quantifiers
 
-Quantifiers indicate the number of characters that must be found to create a match. If we look at the first subexpression `([a-z0-9_\.-]+)`, the `+` tells us that lower case letters a-z, numbers 0-9, underscore `_`, dot `.`(which uses a backslash `\` to distinguish that is not part of the expression), and hyphen `-` can all apprear at least once.  
+Quantifiers indicate the number of characters that must be found to create a match. If we look at the first subexpression `([a-z0-9_\.-]+)`, the `+` tells us that lower case letters a-z, numbers 0-9, underscore `_`, dot `.`  (which uses a backslash `\` to distinguish that is not part of the expression), and hyphen `-` can all apprear at least once.  
 
 ### Grouping Constructs
 
@@ -65,7 +65,7 @@ Flags are optional parameters that can be added to a regex to modify its behavio
 
 ### Character Escapes
 
-Character escapes are used to match characters that have a specific meaning in regex. In the first subexpression `([a-z0-9_\.-]+)` in our email matching regex, we are looking for all lower case letters, all digits, and characters underscore `_`, dot `.`, and hyphen `-`. However dot and hyphen have a specific use within the a regex (`[a-z]` is used to represent a through z) therefore the escape `\` is used before the characters to indicate a literal "." and "-". 
+Character escapes are used to match characters that have a specific meaning in regex. In the first subexpression `([a-z0-9_\.-]+)` in our email matching regex, we are looking for all lower case letters, all digits, and characters underscore `_`, dot `.`, and hyphen `-`. However dot and hyphen have a specific use within the regex (`[a-z]` is used to represent a through z) therefore the escape `\` is used before the characters to indicate a literal "." and "-". 
 
 ### Author
 
